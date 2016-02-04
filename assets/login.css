@@ -1,0 +1,82 @@
+﻿.containerStyling {
+    background-color: #F3F3F3;
+    min-width: 500px;
+    width: 400px;
+}
+
+.signInWidget {
+    background-color: #F3F3F3;
+    width: 250px;
+    margin: 0px auto;
+    padding: 20px;
+
+}
+
+.ui_body {
+    background-color: white
+}
+
+
+.footerContent {
+    border-color: red;
+    border-radius: 25px;
+    border-width: 1px;
+    position: relative;
+}
+.content {
+    min-width: 0;
+    max-width: 1000px;
+
+}
+.float-right {
+    float: right;
+}
+
+#header {
+    max-height: 35px;
+    padding: 3px;
+}
+
+#selectProfile {
+    min-width: 150px;
+}
+
+input[type="text"] ,
+input[type="password"] {
+    min-width: 90%;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+.footer-h3 {
+    margin: 0 auto;
+}
+
+#body:after {
+    display: none
+}
+
+#footerImage {
+    margin-top: -25px;
+    background-color: white;
+    padding: 5px;
+
+}
+
+.footer {
+    color: grey;
+    border-radius: 5px;
+    border: Solid 1px orangered;
+    max-width: 30%;
+    max-height:50%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.footerMessage {
+    max-width: 400px; 
+    text-wrap: normal;
+}
