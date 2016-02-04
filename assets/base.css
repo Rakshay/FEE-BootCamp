@@ -1,10 +1,10 @@
-﻿.containerStyling {
+﻿.containerstyling {
     background-color: #F3F3F3;
     min-width: 500px;
     width: 400px;
 }
 
-.signInWidget {
+.signinwidget {
     background-color: #F3F3F3;
     width: 250px;
     margin: 0px auto;
@@ -17,7 +17,7 @@
 }
 
 
-.footerContent {
+.footercontent {
     border-color: red;
     border-radius: 25px;
     border-width: 1px;
@@ -37,7 +37,7 @@
     padding: 3px;
 }
 
-#selectProfile {
+#selectprofile {
     min-width: 150px;
 }
 
@@ -58,7 +58,7 @@ footer {
     display: none
 }
 
-#footerImage {
+#footerimage {
     margin-top: -25px;
     background-color: white;
     padding: 5px;
@@ -76,7 +76,29 @@ footer {
 
 }
 
-.footerMessage {
+.footermessage {
     max-width: 400px; 
     text-wrap: normal;
+}
+
+.stocksticker {
+    height: 120px;
+    margin: 10px;
+    float: left;
+}
+
+.getquoteresult {
+    width: 200px;
+    padding: 20px;
+}
+
+#currencyconverter {
+    max-width: 200px;
+    margin: 0 auto;
+    max-height: 200px;
+    
+}
+
+#currencyconverter input[type="text"] {
+    min-width: 10%;
 }
