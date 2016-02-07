@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div id="body">
+        <div class="currency-converter-container">
+            <h2>Currency Converter</h2>
+            <div class="clear-float"></div>
+            <div class="blank-line"></div>
+                <div class ="converter-Element">
+                        <label>Convert From: </label>
+                            <select class='currency-selecter js-currencyFrom'>
+                            </select>
+                
+                        <input class="currency-From" name="stockInput" maxlength="100"
+                               autofocus="autofocus" required="required" type="text" value="" />
+
+                       <label>Convert To: </label>
+                            <select class='currency-selecter js-currencyTo'>
+                            </select>
+                
+                        <div class="currency-converted">
+                            <input class="currency-converted-box" name="stockInput" maxlength="100"
+                                   autofocus="autofocus" disabled required="required" type="text" value="" />
+                            <label class="js-error-message"></label>
+
+                        </div>
+                    </div>
+            </div>
+    </div>
+    
+
+    <script src="assets/crux/js/libs/jquery.js"></script>
+    <script src="assets/app/js/currencyConverter.js"></script>
+
+    <link href="assets/app/css/currencyConverter.css" rel="stylesheet" />
+
+</body>
+</html>

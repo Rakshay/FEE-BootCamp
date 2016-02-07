@@ -5,7 +5,6 @@
     <title>EEE First Assignment</title>
     <link rel="stylesheet" href="assets/lunalite/css/lunalite.min.css" type="text/css" media="screen">
     <link rel="stylesheet" href="assets/crux/css/widgets.min.css" type="text/css" media="screen">
-   
 
 </head>
 <body class="ui_body">
@@ -20,7 +19,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="col2" ali>
+                <div class="col2">
                     <select id="selectprofile">
                         <option>Profile</option>
                         <option>Products</option>
@@ -35,50 +34,35 @@
 
     <div id="body">
         <div class="container">
-            <div class="signinwidget stocksticker">
-                <label for="stockinput">Type in Stock Symbol</label>
-                <input id="stockinput" name="stockInput" maxlength="100"
+            <div class="signinwidget">
+                <h2> Sign In Securely. </h2>
+                <label for="username">Username <i class="icon-question-mark-line"></i></label>
+                <input id="username" name="username"
                        autofocus="autofocus" required="required" type="text" value="">
-                <input type="submit" id="getquote" value="Get Quote" class="primary btn float-right">
 
-            </div>
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" value="">
+                <input type="submit" value="Sign in" class="primary btn float-right">
 
-            <script id="stockTemplate" type="text/x-handlebars-template">
-                <div id="searchstockresult">
-                    <label id="currentValue"> Today's Price : {{Today}} <b>$</b></label>
-                    <label id="previousvalue">Yesterday's Price : {{Previous}} <b>$</b></label>
+                <div>
+                    <input id="remember_me" type="checkbox" name="remember_me">
+                    <label for="remember_me" class="inline">Remember me</label>
                 </div>
-            </script>
-           
-            <div id="currencyconverter">
-                 <h4> Currency Converter</h4>
-                <label id="currentvalue"> Convert From: </label>
-                <select id="selectinputcurrency">
-                    <option>USD</option>
-                </select>
-                <br/>
-                <input id="inputcurrency" name="inputcurrency" maxlength="100"
-                       autofocus="autofocus" required="required" type="text" value="">
-                <label id="currentvalue"> Convert To:</label>
-                <select id="selecoutputcurrency">
-                    <option>INR</option>
-                </select>
-                <script id="currencyconvertorTemplate" type="text/x-handlebars-template">
-                    
-                    <input id="inputcurrency" name="inputcurrency" maxlength="100"
-                           autofocus="autofocus" readonly required="required" type="text"
-                           value="{{currencyresult}}" style="clear:both">
-                </script>
-                <div id="getcurrencyresult"></div>
-               <input type="submit" id="getcurrency" value="Convert" class="primary btn float-right">
+                <a>Forgot Password?</a>
             </div>
-            
-            <div id="getquoteresult" class="getquoteresult"></div>
-
         </div>
+
+        <footer>
+            <div class="footer">
+                <img id="footerimage" src="assets/images/holiday.png" />
+                <h3 class="footer-h3"> Happy Holidays!</h3>
+                <label class="footermessage">
+                    Technical Support will be temporarily unavailable from December 25th through Jan 1st due to holidays.
+                </label>
+            </div>
+        </footer>
     </div>
 
-    <script src="assets/crux/js/libs/handlebars.js"></script>
     <script src="assets/crux/js/libs/jquery.js"></script>
     <script src="assets/crux/js/libs/jquery-ui.custom.js"></script>
     <script src="assets/crux/js/libs/handlebars.js"></script>
@@ -99,7 +83,6 @@
     <script src="assets/crux/js/widgets/cs.ellipsr.js"></script>
     <script src="assets/crux/js/widgets/cs.loadr.js"></script>
     <script src="assets/crux/js/widgets/cs.selectr.js"></script>
-    <script src="assets/Stock.js"></script>
     <script src="assets/app/js/main.js" type="text/javascript" charset="utf-8"></script>
 
     <link href="assets/base.css" rel="stylesheet" />
