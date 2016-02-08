@@ -45,7 +45,6 @@ $(document).ready(function () {
     });
 
     $(".js-currencyFrom").change(getConvertedCurrencyVal);
-    });
 
     $(".js-currencyTo").change(getConvertedCurrencyVal);
 
